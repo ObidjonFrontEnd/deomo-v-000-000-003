@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Promis</title>
+	<link rel="stylesheet" href="output.css">
+</head>
+
+<body class="relative">
+
+	<div class="text-center">
+
+		<button id="downloadBtn"
+			class="downloadBtn bg-indigo-500 px-[20px] py-[10px] rounded-[5px] my-[50px] text-white font-bold">Download</button>
+		<div id="downloadModal" class="hidden absolute top-[10px] left-1/2  -translate-x-1/2 text-white">
+			<div
+				class=" bg-indigo-500 flex gap-[10px] items-center justify-center mx-auto h-[150px] w-[200px] rounded-[10px]">
+				<p>Downloading</p>
+				<svg id="svg" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"
+					class="animate-spin">
+					<!-- Серый след -->
+					<circle cx="12.5" cy="12.5" r="10" stroke="gray" stroke-width="2.5" fill="none" opacity="0.3" />
+					<!-- Белая передняя часть -->
+					<circle cx="12.5" cy="12.5" r="10" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"
+						stroke-dasharray="40" stroke-dashoffset="10" />
+				</svg>
+
+			</div>
+		</div>
+
+	</div>
+
+	<img src="" alt="">
+
+	<script src="promis.js"></script>
+</body>
+
+</html>
